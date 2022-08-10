@@ -1,11 +1,13 @@
 # tailwind_practice_ui
 
 <h3>Initialize packge.json</h3>
+
 ```
 npm init -y
 ```
 
 <h3>Install tailwind</h3>
+
 ```
 npm install -D tailwindcss
 ```
@@ -18,6 +20,7 @@ npx tailwindcss init
 
 <h3>Create 'tailwind.CSS' file</h3>
 create and add these line to your "tailwind.css" file
+
 ```
 @tailwind base;
 @tailwind components;
@@ -25,21 +28,26 @@ create and add these line to your "tailwind.css" file
 ```
 
 <h3>Add scripts in 'packege.json'</h3>
+
 ```
 "build": "tailwind build tailwind.css -o style.css",
 "watch": "tailwind build tailwind.css -o style.css --watch"
 ```
+
 :- build is for get all css from from tailwindcss in your project
 :- watch will continuously running tailwindcss file 
 
 we need ro run command
+
 ```
 npm build
 ```
+
 OR
+
 ```
 npm watch
 ```
-<br/>
+
 We will need tailwind to run continuously while working on the project so run 'npm watch' command
-<br/>
+

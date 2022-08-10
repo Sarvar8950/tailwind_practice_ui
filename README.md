@@ -1,5 +1,9 @@
 # tailwind_practice_ui
 
+<h2>Link for Tailwindcss documantation </h2>
+
+<a href="https://tailwindcss.com/docs/installation"> https://tailwindcss.com/docs/installation </a>
+
 <h3>Initialize packge.json</h3>
 
 ```

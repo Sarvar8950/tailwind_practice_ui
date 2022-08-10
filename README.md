@@ -34,7 +34,10 @@ create and add these line to your "tailwind.css" file
 "watch": "tailwind build tailwind.css -o style.css --watch"
 ```
 
+These command will create "style.css" file that will be linked to our HTML file
+<br/>
 :- build is for get all css from from tailwindcss in your project
+<br/>
 :- watch will continuously running tailwindcss file 
 
 we need ro run command
